@@ -30,12 +30,12 @@ The model is based on ViT and fine-tuned for speech command classification. It a
 ## Spectrogram Example
 The model converts speech waveforms into mel spectrograms before feeding them into the ViT.
 
-![Spectrogram Example](spectrogram.png)
+![Spectrogram Example](images/spectogram.png)
 
 ## Training Metrics
 The following plot shows the training and validation loss/accuracy over epochs.
 
-![Training Metrics](training_metrics.png)
+![Training Metrics](images/training_metric.png)
 
 ## Results
 - The trained model is saved as `best_model.pth`.
