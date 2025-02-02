@@ -15,12 +15,6 @@ Ensure you have Python 3.8+ and install the required dependencies:
 pip install torch torchaudio timm tqdm matplotlib
 ```
 
-## Usage
-Run the script to train the model:
-```bash
-python script.py
-```
-
 ## Dataset
 The dataset is automatically downloaded from `torchaudio.datasets.SPEECHCOMMANDS` when running the script.
 
